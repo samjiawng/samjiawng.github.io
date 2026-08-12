@@ -853,3 +853,13 @@
     visibility: visible;
   }
 }
+
+nav#navbar {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+
+nav#navbar .navbar-brand.social svg {
+  height: 32px !important;
+  width: auto !important;
+}
