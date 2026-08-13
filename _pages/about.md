@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: me.jpeg
+  image: piplup.png
   image_circular: false
 
 selected_papers: true
