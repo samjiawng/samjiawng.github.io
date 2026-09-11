@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: 
 
@@ -13,7 +13,7 @@ selected_papers: true
 social: false
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 5
 
@@ -23,17 +23,17 @@ latest_posts:
   limit: 3
 ---
 
-I'm currently at [AISC](https://www.aisafety.camp/), where I'm working on deception probe generalization. Before this, I did research
-at [BAIR](https://bair.berkeley.edu/) and [TAFLab](https://taflab.berkeley.edu/) during my undergrad at Berkeley.
+Broadly, I work on building systems for efficient, reliable language model training and inference.
 
-Some other things:
+Previously: [AISC](https://www.aisafety.camp/), [BAIR](https://bair.berkeley.edu/), [TAFLab](https://taflab.berkeley.edu/), [Berkeley](https://www.berkeley.edu/)
 
-- Instrumenting intra-group policy version staleness in [prime-rl](https://github.com/samjiawng/prime-rl), the async RL trainer from [Prime Intellect](https://www.primeintellect.ai/).
-- Previously at [BAIR](https://bair.berkeley.edu/) on jailbreak detection, and [TAFLab](https://taflab.berkeley.edu/) on multi-robot systems.
+**Some stuff I've been working on:**
 
-### research highlights:
+- [weight-sync-bench]({{ '/projects/weight-sync-bench/' | relative_url }}): Benchmarks trainer-to-inference weight synchronization for async RL and checks that transferred weights are correct. Measured p50 sync latency of 2.76 s via filesystem and 0.48 s via NCCL with Qwen3-0.6B in [prime-rl](https://github.com/samjiawng/prime-rl).
 
-- **Interpretability.** [Truth probe generalization](https://github.com/samjiawng/truth-probe-generalization) (2026), [factual recall circuits](https://github.com/samjiawng/factual-recall-circuits) (2026), [refusal directions](https://github.com/samjiawng/refusal-directions) (2026)
-- **RL systems.** TBD.
+## Research Interests
 
-Feel free to reach out at [x]@gmail.com where [x] is samjiawng.
+Machine learning systems, with a focus on efficient training and inference:
+
+- Async RL training systems
+- Weight synchronization and rollout scheduling

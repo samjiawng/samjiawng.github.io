@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications and pre-prints
+title: Publications and Pre-prints
 description: publications by categories in reversed chronological order. *,^ denotes equal author contribution.
 nav: true
 nav_order: 2

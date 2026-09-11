@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: TBD.
+description: For some of my research and personal projects.
 nav: true
 nav_order: 3
-display_categories: []
+display_categories: [systems]
 horizontal: false
 ---
 
